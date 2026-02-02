@@ -1,17 +1,17 @@
-# LikeYou V3 🖤
+# LikeYou V3
 
 **A premium AI-powered social connector built for meaningful connections.**
 
 > [!NOTE]
 > This is a public showcase repository. The source code, AI models, and backend logic are private.
 
-## 🚀 Live Demo
+## Live Demonstration
 
-**[👉 Click here to visit the live app](https://likeyou-lac.vercel.app/)**
+**[Visit the live application](https://likeyou-lac.vercel.app/)**
 
 ---
 
-## 📸 Screenshots
+## Interface Overview
 
 | Landing Page | Chat Interface |
 |:---:|:---:|
@@ -23,24 +23,22 @@
 
 ---
 
-## ✨ Features
+## Key Features
 
-LikeYou V3 moves beyond superficial swiping by using advanced AI to find semantic matches based on deep compatibility.
+LikeYou V3 moves beyond conventional matchmaking by utilizing advanced AI to identify semantic matches based on deep compatibility.
 
--   **🧠 Semantic AI Matching**: Matches are curated based on vector embeddings of your interests, values, and bio using **Google Gemini AI**.
--   **💬 Real-Time Messaging**: Instant, reliable chat powered by **Stream Chat**.
--   **🎨 Premium UI**: A high-fidelity "Obsidian & Rose" aesthetic using **Tailwind CSS**, **Framer Motion**, and **Shadcn/UI**.
--   **👤 Deep Profiles**: Detailed profile system with avatar uploads and psychological profiling.
+-   **Semantic AI Matching**: Matches are curated based on vector embeddings of user interests, values, and bios using Google Gemini AI.
+-   **Real-Time Messaging**: Robust, low-latency chat infrastructure powered by Stream Chat.
+-   **Premium UI**: A high-fidelity, immersive aesthetic designed with Tailwind CSS, Framer Motion, and Shadcn/UI.
+-   **Comprehensive Profiles**: Detailed profile system featuring avatar uploads and psychological profiling.
 
-## 📖 How It Works
+## System Architecture
 
-Curious about the AI magic behind the scenes? 
+For a technical overview of the AI matching logic, please refer to the [System Overview](./HOW_IT_WORKS.md).
 
-**[👉 Read the High-Level System Overview](./HOW_IT_WORKS.md)**
+## Technology Stack
 
-## 🛠️ Tech Stack
-
-This project uses a modern, high-performance stack:
+This project is built on a modern, high-performance stack:
 
 -   **Frontend**: Next.js 14, TypeScript, Tailwind CSS
 -   **Backend**: Supabase (PostgreSQL + Auth)
